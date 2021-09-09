@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;500;700;900&family=Raleway:ital,wght@0,500;1,500;1,600&family=Yanone+Kaffeesatz:wght@200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Yanone Kaffeesatz';
+}
+.icone {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 0.5%;
+    left: 8%;
+}
+body {
+    background-color: rgb(95, 95, 95);
+}
+.menu-principal {
+    background-color: #06101D;
+    height: 150px;
+}
+.titulo-menu {
+    padding-top: 4%;
+    margin-right:54%;
+    font-size: 70px;
+    color:#bfc5c7;
+}
+.links-principal {
+    
+    padding: 40px;
+    padding-top: 15px;
+    background-color:#1779799a;
+    height:30px; 
+}
+.links-principal a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: calc(30px - 10px);
+    margin: 10px;
+}
+.links-principal a:hover {
+    color: rgb(18, 18, 19);
+   
+}
+video {
+    width: 100%;
+    height: 100vh; 
+    margin-bottom: 5%; 
+    margin-top: 1%;
+}
+.Faixa {
+    background-color: rgba(32, 77, 122, 0.658);
+    position: fixed;
+    margin-top: 5%;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+}
+.text-canada {
+    color:antiquewhite;
+    font-size: 1.3rem;
+    padding-top: 3%;
+    margin-left: 3%;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 5%;
+    color: antiquewhite;
+}
+footer {
+    background-color:#06101D;;
+    width:100%;
+    height: 15vh;
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+
+}
+footer {
+    margin-top: 0%;
+    background-color: #06101D;
+    width:100%;
+    height: 15vh;
+    color: aliceblue;
+    font-size: 1rem;
+    text-align:justify;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.icone {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 0.5%;
+    left: 10%;
+}

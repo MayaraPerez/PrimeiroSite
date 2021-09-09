@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;500;700;900&family=Raleway:ital,wght@0,500;1,500;1,600&family=Yanone+Kaffeesatz:wght@200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Yanone Kaffeesatz';
+}
+.icone {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 0%;
+    right: 0%;
+    margin-right: 83%;
+}
+body {
+    background-color: rgb(95, 95, 95);
+}
+.menu-principal {
+    background-color: #06101D;
+    height: 150px;
+}
+.titulo-menu {
+    padding-top: 4%;
+    margin-left:17%;
+    font-size: 75px;
+    color:#bec5c7;
+}
+.links-principal {
+    padding: 40px;
+    padding-top: 15px;
+    background-color:#1779799a;
+    height:30px; 
+}
+.links-principal a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: calc(30px - 10px);
+    margin: 10px;
+}
+.links-principal a:hover {
+    color: rgb(18, 18, 19);
+   
+}
+video{
+    width: 50vw;
+    height: 40vh;
+    margin-top: 1.5%;
+}
+.conteudo-fundo {
+    background-color: paleturquoise;
+    height: 100vh;
+}
+.conteudo {
+    width: 45%;
+    height: 30vh;
+    top: 29%;
+    left: 50%;
+    position: absolute;
+    background-color:aliceblue;
+    border-radius: 20px;
+}
+.conteudo-titulo1 {
+    font-size: 2rem;
+    padding-left: 3%;
+    padding-top: 2%;
+    color:rgb(12, 107, 107); 
+}
+.conteudo-text1 {
+    font-size: 1.2rem;
+    padding-top: 3%;
+    padding-left: 3%;
+    color: rgb(82, 128, 214);
+}
+.conteudo2 {
+    width: 35%;
+    height: 30vh;
+    top: 75%;
+    left: 7%;
+    position: absolute;
+    background-color:aliceblue;
+    border-radius: 20px;
+}
+img {
+    position: absolute;
+    border-radius: 10px;
+    width: 43vw;
+    height: 40vh;
+    margin-top: 0%;
+    margin-left: 125%;
+   
+}
+.titulo-conteudo2 {
+    font-size: 2rem;
+    padding-left: 3%;
+    padding-top: 5%;
+    color:rgb(12, 107, 107);
+}
+.texto-conteudo2 {
+    font-size: 1.2rem;
+    padding-top: 0%;
+    padding-left: 3%;
+    color: rgb(82, 128, 214);
+}
+.tabela {
+    position: absolute;
+    top: 134%;
+    left: 10%;  
+}
+table {
+    background-image: linear-gradient(to right, #476cdb,#81A0C0,#AFEEEE);
+    width: 80vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+thead {
+    background-color: rgb(131, 96, 167);
+    text-align: left;
+    color:aliceblue;
+    font-size: 1.3rem;
+    border: 2px solid #a5afb9;
+}  
+thead, th {
+    padding: 10px;
+    border-radius: 10px 0px ;
+} 
+tbody, td {
+    color: rgb(48, 47, 45);
+    padding-left: 10px;
+    font-size: 1.2rem;
+    
+}
+th, td:hover {
+    background-color: rgba(240, 248, 255, 0.411);
+}
+footer {
+    background-color:#06101D;
+    width:100%;
+    height: 15vh;
+    color: aliceblue;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 40%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}

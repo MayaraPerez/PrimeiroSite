@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;500;700;900&family=Raleway:ital,wght@0,500;1,500;1,600&family=Yanone+Kaffeesatz:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Yanone Kaffeesatz';
+}
+.icone {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 0.5%;
+    left: 8%;
+}
+
+.menu-principal {
+    background-color: #06101D;
+    height: 150px;
+}
+.titulo-menu {
+    padding-top: 3%;
+    margin-left:18%;
+    font-size: 70px;
+    color:#a7b8bd;
+}
+.links-principal {
+    padding-top: 12px;
+    background-color: #177979da;
+    height:45px; 
+}
+
+.links-principal a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: calc(30px - 10px);
+    margin: 10px;
+}
+.links-principal a:hover {
+    color: rgb(18, 18, 19);
+}
+/*Titulo do conteudo*/
+body {
+    background-color: #06101D;
+}
+h1 {
+    margin-left: 38%;
+    padding-top: 3%;
+    font-size: 3rem;
+    color:rgb(192, 189, 189);
+    padding-bottom: 2%;
+}
+.texto {
+    width: 70%;
+    height: 10vh;
+    color:#ccc;;
+    margin-left: 15%;
+    font-size: 1.8rem;
+    text-indent: 20px;
+    margin-bottom: 2%;
+}
+
+/*Questionario do conteudo*/
+.fundo {
+    position: absolute;
+    margin-top: 15%;
+    width:100%;
+    height:210vh;
+    object-fit: cover;
+}
+audio {
+    position: absolute;
+    border-radius: 5px;
+    height: 30px;
+    top: 25%;
+    right: 2%;
+}
+.tabela {
+    position:absolute;
+    top: 45%;
+    z-index: 10;
+    border-radius: 10px;
+    width: 50%;
+    height: 195vh;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color:#06101dd2;
+    padding-top: 3%;
+}
+fieldset {
+    border: 3px solid aliceblue;
+    margin: 30px;
+    padding: 20px;
+    color:aliceblue;
+    font-size: 1rem;
+}
+
+legend {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+input, type[checkbox]{
+    margin: 10px;
+}
+select, option {
+    width: 30%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+label {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+label:hover {
+    font-size: 1.8rem;
+}
+select:focus {
+    background-color: aliceblue; 
+}
+button {
+    width: 50%;
+    height: 40px;
+    margin-left: 23%;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    border: none;
+    color: aliceblue;
+    background-color:darkcyan;
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+/*Rodape do conteudo*/
+footer {
+    position: absolute;
+    top: 260%;
+    background-color:#06101D;
+    width: 100%;
+    height: 15vh;
+    color: floralwhite;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 0.5%;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-around;
+}
+
+.p-box1 {
+    text-align: left;
+    margin: 2px;
+}
+.p-box2 {
+    text-align: right;
+    padding-right: 32%;
+}
+.p-box3 {
+    padding-left: 50%; 
+    text-align: left;
+}
+.titulo-box3 {
+    padding-left: 15%;
+
+}

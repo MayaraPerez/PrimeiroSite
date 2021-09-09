@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;500;700;900&family=Raleway:ital,wght@0,500;1,500;1,600&family=Yanone+Kaffeesatz:wght@200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Yanone Kaffeesatz';
+}
+.icone {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 0.5%;
+    left: 8%;
+}
+body {
+    background-color: rgb(95, 95, 95);
+}
+.menu-principal {
+    background-color: #06101D;
+    height: 150px;
+}
+.titulo-menu {
+    padding-top: 4%;
+    margin-left:18%;
+    font-size: 70px;
+    color:#a7b8bd;
+}
+.links-principal {
+    
+    padding: 40px;
+    padding-top: 15px;
+    background-color:#177979;
+    height:30px; 
+}
+.links-principal a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: calc(30px - 10px);
+    margin: 10px;
+}
+.links-principal a:hover {
+    color: rgb(18, 18, 19);
+   
+}
+section {
+    background-image: linear-gradient(to top, rgb(207, 205, 205), rgba(20, 133, 153, 0.987));
+    border-radius: 15px;
+    text-align: left;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+input {
+    margin: 10px;
+    
+
+}
+fieldset {
+    border: none;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+label {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+h2 {
+    text-align: center;
+    color:#177979;
+    font-size: 2rem;
+    padding-bottom: 1%;
+}
+button {
+    width: 20%;
+    padding: 10px;
+    margin-left: 40%;
+    background-color:#177979;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    color: #000;
+    box-shadow: 0px 3px 8px #000;
+    font-size: 1.5rem;
+}
+footer {
+    background-color:#06101D ;
+    width:100%;
+    height: 15vh;
+    color: aliceblue;
+    font-size: 1rem;
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}

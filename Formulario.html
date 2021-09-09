@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Formulario.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    
+    <header>  
+        <main class="menu-principal">
+             <h1 class="titulo-menu">Formulário</h1>
+             <img class="icone" src="IMAGENS/icone.png">
+             
+        </main>
+                <nav class="links-principal">
+                    <a href="index.html">Página principal |</a>
+                    <a href="sobre-nos-1.html">sobre nos |</a>
+                    <a href="questionario.html">Questionário Destino Certo | </a>
+                    <a href="serviços.html">Nosso Serviço |</a>
+                    <a href="galeria.html">Nossa Galeria |</a>
+                    <a href="Videos.html">Nossos Vídeos |</a>
+                    <a href="Formulario.html"> formulário|</a>
+                    <a href="QuestionarioAvaliação.html"> Nos Avalie|</a>
+                    <a href="faleConosco.html">Fale Conosco</a>
+                 </nav>   
+   </header>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Reserva de viagem</legend>
+                <label for="nome">Nome:</label> 
+                <input type="text" name="nome" id="nomeInput" required>
+                <br>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="number" name="dia" id="diaInput" required><input type="month" name="mes" required placeholder="Mês" id="mesInput">
+                <br>
+                <br>
+                <label for="emal">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <br>
+                <label for="celular">Celular:</label>
+                <input type="tel" name="tel" id="celular" required>
+                <br>
+                <br>
+                <label for="saida">País de saída:</label>
+                <select name="saida" id="saida">
+                <option >Selecione:</option>
+                <option name="brazil" id="brazil">Brazil</option>
+                <option name="brazil" id="mexico">méxico</option>
+                <option name="brazil" id="australia">australia</option>
+                <option name="brazil" id="frança">frança</option>
+                <option name="brazil" id="zurique">zurique</option>
+                </select>
+                <br>
+                <br>
+                <label for="saida">País de Destino:</label>
+                <select name="destino" id="destino">
+                <option >Selecione:</option>
+                <option name="brazil" id="brazil">Brazil</option>
+                <option name="brazil" id="mexico">méxico</option>
+                <option name="brazil" id="australia">australia</option>
+                <option name="brazil" id="frança">frança</option>
+                <option name="brazil" id="zurique">zurique</option>
+                </select>
+                <br>
+                <br>
+                <label for="saida">Data de Saída:</label>
+                <input type="month" name="mesDeSaida" id="mesDeSaida" required>
+                <br>
+                <br>
+                <label for="retorno">Data de Retorno:</label>
+                <input type="month" name="mesDeRetorno" id="mesDeRetorno" required>
+                <br>
+                <br>
+                <label for="classe">Classe de Viagem:</label>
+                <select name="classe" id="classe">
+                <option value="#">Selecione</option>
+                <option name="economica" id="">Classe Econômica</option>
+                <option name="empresarial" id="">Classe Empresarial</option>
+                <option name="primeira" id="">Primeira Classe</option> 
+                </select>
+                <br>
+                <br>
+
+                <h3>Marque os serviços que você precisa:</h3>
+                <br>
+                <input type="checkbox" name="aereo" id="aereo">
+                <label for="aereo">Passagens Aéreas</label>
+                <br>
+                <input type="checkbox" name="carros" id="carros"> 
+                <label for="carros">Passagens Carros</label>
+                <br>
+                <input type="checkbox" name="hoteis" id="hoteis"> 
+                <label for="hoteis">Acomodações em Hotéis</label>
+                <br>
+
+                <h3 class="h3-detalhe">Detalhes do Viajante</h3> 
+                <br>
+                <label for="detalhes">Grupo de hotéis Preferidos:</label>
+                <input type="text" name="detalhe" id="detalhe">
+                <br>
+                <br>
+                <label for="preferida">Companhia Aérea Preferida:</label>
+                <input type="text" name="preferida" id="preferida">
+                <br>
+                <br>
+                <label for="adicionais">Informações Adicionais:......</label>
+                <input type="text" name="adicionais" id="adicionais">
+                <br>
+                <button>Enviar Formulário</button>
+
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <div>
+            <p class="p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Sed alias dolores accusamus sunt vitae error ipsum maxime aut <br> Error qui consectetur et sint provident inventore <br> similique officia beatae soluta saepe?</p> amet consectetur adipisicing <br> Facilis, perferendis laborum quod
+        </div>
+        <div>
+            <p class="p-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing <br> Facilis, perferendis laborum quod <br> corrupti obcaecati ducimus esse, necessitatibus at fugiat quos ut numquam <br> aspernatur ipsum omnis? Sit quae neque aut enim.
+                amet consectetur adipisicing <br> Facilis, perferendis laborum quod
+            </p>
+        </div>
+        <div>
+            <p class="p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing <br> Facilis, perferendis laborum quod <br> corrupti obcaecati ducimus esse, necessitatibus at fugiat quos ut numquam <br> aspernatur ipsum omnis? Sit quae neque aut enim. corrupti obcaecati ducimus esse. <br>necessitatibus at fugiat quos ut numquam <br> aspernatur ipsum omnis? Sit quae neque aut enim.
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>

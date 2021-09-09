@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;500;700;900&family=Raleway:ital,wght@0,500;1,500;1,600&family=Yanone+Kaffeesatz:wght@200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Yanone Kaffeesatz';
+}
+.icone {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 0.5%;
+    left: 8%;
+}
+body {
+    background-color: rgb(95, 95, 95);
+}
+.menu-principal {
+    background-color: #06101D;
+    height: 150px;
+}
+.titulo-menu {
+    padding-top: 4%;
+    margin-left:18%;
+    font-size: 70px;
+    color:#a7b8bd;
+}
+.links-principal {
+    padding: 40px;
+    padding-top: 15px;
+    background-color:#177979;
+    height:30px; 
+}
+.links-principal a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: calc(30px - 10px);
+    margin: 10px;
+}
+.links-principal a:hover {
+    color: rgb(18, 18, 19);
+   
+}
+/*conteudo da pagina*/
+
+audio, source {
+    margin-left:80% ;
+    padding-top: 5%;
+    padding: 10px;
+    
+}
+
+.conteudo-video1 {
+    background-color:#06101D;
+    height: 60vh;
+    display: flex;
+    margin-bottom: 3%;
+
+}
+.titulo-2 {
+    background-color: rgba(11, 58, 11, 0.685);
+    width: 100%;
+    height: 10%;
+}
+h2 {
+    color: antiquewhite;
+    padding: 5px;
+    margin-top: 3%;
+    margin-left: 45%;
+    font-size: 3rem;
+}
+.video1 {
+    margin: 20px;
+   
+}
+/*Segundo conteudo da pagina*/
+
+.conteudo-video2 {
+    background-color: #06101D;
+    height: 50vh;
+    margin-bottom: 5%;
+}
+
+.titulo-3 {
+    background-color:rgb(43, 99, 204);
+    width: 100%;
+    height: 10%;
+}
+h3 {
+    color: antiquewhite;
+    padding: 5px;
+    margin-top: 0%;
+    margin-left: 48%;
+    font-size: 3rem;
+}
+.video2 {
+    width: 30%;
+    height: 40vh;
+    margin: 20px;
+    padding-top: 3%;  
+}
+footer {
+    background-color: #06101D;
+    width:100%;
+    height: 15vh;
+    color: aliceblue;
+    font-size: 1rem;
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+
+
+}
